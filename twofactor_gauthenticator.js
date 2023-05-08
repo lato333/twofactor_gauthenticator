@@ -3,7 +3,7 @@ if (window.rcmail) {
 
 	  // ripped from PHPGansta/GoogleAuthenticator.php
 		function createSecret(secretLength) {
-			if(!secretLength) secretLength = 16;
+			if(!secretLength) secretLength = 32;
 
 			var lookupTable = new Array(
 		            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', //  7
